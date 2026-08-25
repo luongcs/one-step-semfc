@@ -1,0 +1,39 @@
+Package: Repro
+Title: Reproducibility Code for One step experiment
+Version: 1.0
+Authors@R:
+    person(
+        "Anonymous",
+        "Authors",
+        email = "anonymous@example.com",
+        role = c("aut", "cre")
+    )
+Description: Implements estimation methods for structural equation models
+    combining factors and composites, including a spectral estimator,
+    a one-step constrained likelihood estimator, and restricted maximum
+    likelihood. The package is provided to reproduce the numerical
+    experiments of the accompanying anonymous submission.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    igraph,
+    R6,
+    Matrix,
+    MASS,
+    Rsolnp,
+    numDeriv,
+    pbapply,
+    nloptr
+Depends:
+    R (>= 3.5)
+LazyData: true
+Suggests:
+    devtools,
+    testthat,
+    mvtnorm,
+    dplyr,
+    ggplot2,
+    lavaan
+Config/testthat/edition: 3
