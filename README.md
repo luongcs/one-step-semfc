@@ -1,7 +1,17 @@
-# Reproducibility Code
 
-This repository contains the code used to reproduce the numerical
-experiments, tables, and figures of the accompanying anonymous submission.
+# One-Step SEMFC
+
+## Replacing Iterative Constrained Likelihood in Hybrid Structural Models with a Spectrally Initialized One-Step Estimator
+
+Accepted at NewInML Workshop at the 40th Conference on
+Neural Information Processing Systems
+(NeurIPS 2026), Paris, France, 2026.
+
+This repository provides the implementation and reproducibility code associated with the paper.
+
+The proposed method combines the SVD-SEM spectral initializer with a single constrained Fisher-scoring correction to obtain an estimator that is asymptotically equivalent to restricted maximum likelihood, without requiring fully iterative likelihood optimization.
+
+The repository contains the scripts used to reproduce the numerical experiments, tables, and figures presented in the paper.
 
 ## Structure
 
